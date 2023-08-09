@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Tailwind project</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- navbar -->
     <nav class="relative container mx-auto p-6">
-        <!-- flex container -->
-        <div class="flex items-center justify-between">
-            <!-- logo -->
-            <div class="pt-2">
-                <img src="/images/logo.svg" alt="">
-            </div>
-            <!-- menu items  -->
-            <div class="hidden md:flex space-x-6">
-                <a href="#" class="hover:text-red-500">Pricing</a>
-                <a href="#" class="hover:text-red-500">Product</a>
-                <a href="#" class="hover:text-red-500">About Us</a>
-                <a href="#" class="hover:text-red-500">Careers</a>
-                <a href="#" class="hover:text-red-500">Community</a>
-            </div>
-            <!-- button  -->
-            <a href="" class="p-3 px-6 text-white bg-brightRed hover:bg-brightRedLight rounded-full">
-                Get Started
-            </a>
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="/images/logo.svg" alt="" />
         </div>
+        <!-- menu items  -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-red-500">Pricing</a>
+          <a href="#" class="hover:text-red-500">Product</a>
+          <a href="#" class="hover:text-red-500">About Us</a>
+          <a href="#" class="hover:text-red-500">Careers</a>
+          <a href="#" class="hover:text-red-500">Community</a>
+        </div>
+        <!-- button  -->
+        <a
+          href=""
+          class="hidden md:block p-3 px-6 text-white bg-brightRed hover:bg-brightRedLight rounded-full"
+        >
+          Get Started
+        </a>
+      </div>
     </nav>
+    <!-- Hero section  -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- left item  -->
+                <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                    <h1 class="max-w-md text-4xl font-bold text-start md:text-5xl md:textleft ">
+                        Bring everyone together to build better
+                    </h1>
     
-</body>
+                </div>
+            <!-- image  -->
+                <div>
+    
+                </div>
+        </div>
+    </section>
+  </body>
 </html>
